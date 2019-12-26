@@ -4,7 +4,7 @@ angular.module('starter.termini', [])
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
-  var vocaboli = [{
+  var vocaboli_list = [{
     id: 0,
     name: 'Ben Sparrow',
     lastText: 'You on your way?',
@@ -59,15 +59,15 @@ angular.module('starter.termini', [])
 
   return {
     all: function() {
-      return vocaboli;
+      return vocaboli_list;
     },
     remove: function(vocabolo) {
-      vocaboli.splice(vocaboli.indexOf(vocabolo), 1);
+      vocaboli_list.splice(vocaboli_list.indexOf(vocabolo), 1);
     },
     get: function(vocaboloId) {
-      for (var i = 0; i < vocaboli.length; i++) {
-        if (vocaboli[i].id === parseInt(vocaboloId)) {
-          return vocaboli[i];
+      for (var i = 0; i < vocaboli_list.length; i++) {
+        if (vocaboli_list[i].id === parseInt(vocaboloId)) {
+          return vocaboli_list[i];
         }
       }
       return null;
