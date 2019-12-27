@@ -4,11 +4,16 @@
   The FriendsCtrl pulls data from the Friends service (service.js)
   The Friends service returns an array of friend data
 -->
-<ion-view view-title="{{vocabolo.name}}">
+<ion-view view-title="{{vocabolo.termine}}">
   <ion-content class="padding">
-    <img ng-src="{{vocabolo.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{vocabolo.lastText}}
-    </p>
+    
+    <h2 align="right">{{vocabolo.termine}}</h2>
+    <h3>{{vocabolo.traslitterazione}}</h3>
+    <h2>{{vocabolo.significato}}</h2>
+    <br>
+    <h3>{{vocabolo.grammatica}}</h3>
+    <br>
+    <h4>{{vocabolo.altro}}</h4>
+
   </ion-content>
 </ion-view>

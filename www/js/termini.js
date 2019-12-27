@@ -6,55 +6,68 @@ angular.module('starter.termini', [])
   // Some fake testing data
   var vocaboli_list = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    lastText2: 'You on your way?',
-    face: 'img/ben.png'
+    termine: '	א	',
+    senza: '	א	',
+    traslitterazione: '	’	',
+    key: '	a	',
+    significato: '	’àlef	',
+    grammatica: '		',
+    altro: '		'
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'img/max.png'
+    termine: '	אָב	',
+    senza: '	אב	',
+    traslitterazione: '	’āḇ	',
+    key: '	ab	',
+    significato: '	padre	',
+    grammatica: '	n. m.	',
+    altro: '	cstr. אַב - pl. m. אָבוֹת - cstr. אֲבוֹת	',
   }, {
     id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
+    termine: '	אֲדָמָה	',
+    senza: '	אדמה	',
+    traslitterazione: '	’aḏāmāh	',
+    key: '	adamah	',
+    significato: '	suolo, terra (in contrasto con l’acqua), territorio, argilla	',
+    grammatica: '	n. f.	',
+    altro: '	cstr. אַדְמַת - pl. אֲדָמוֹת	'
   }, {
     id: 3,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'img/perry.png'
+    termine: '	אוֹר	',
+    senza: '	אור	',
+    traslitterazione: '	’ôr	',
+    key: '	or	',
+    significato: '	luce	',
+    grammatica: '	n. f.	',
+    altro: '	cstr. אוֹר - pl. ass. אוֹרִים	',
+    id: '	4	'
   }, {
     id: 4,
-    name: 'Mike Harrington',
-    lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
+    termine: '	אוֹת	',
+    senza: '	אות	',
+    traslitterazione: '	’ôṯ	',
+    key: '	ot	',
+    significato: '	segno	',
+    grammatica: '	n. m.	',
+    altro: '	pl. ass. אוֹתוֹת	'
   }, {
     id: 5,
-    name: 'Beniamino Guidotti',
-    lastText: 'You on your way?',
-    face: 'img/ben.png'
+    termine: '	אָח	',
+    senza: '	אח	',
+    traslitterazione: '	’āḥ	',
+    key: '	ah	',
+    significato: '	fratello	',
+    grammatica: '	n. m.	',
+    altro: '	cstr. אֲחִי - pl. m. אַחִים - cstr. אֲחֵי	'
   }, {
     id: 6,
-    name: 'Silvano Fausti',
-    lastText: 'Amen',
-    face: 'img/max.png'
-  }, {
-    id: 7,
-    name: 'Giovanni Falcone',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
-  }, {
-    id: 8,
-    name: 'Andrea Serra',
-    lastText: 'Look at my mukluks!',
-    face: 'img/perry.png'
-  }, {
-    id: 9,
-    name: 'Gabriele Semino',
-    lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
+    key: '	ehad	',
+    termine: '	אֶחָד	',
+    senza: '	אחד	',
+    traslitterazione: '	’eḥāḏ	',
+    significato: '	uno	',
+    grammatica: '	agg. numerale	',
+    altro: '	cstr. אַחַד	'
   }];
 
   return {
