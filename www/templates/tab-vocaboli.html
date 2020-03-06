@@ -18,7 +18,7 @@
         <!-- Qui c'è l'elenco degli items-->
         <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="vocabolo in vocaboli | filter:vocabolo_filter" type="item-text-wrap" href="#/tab/vocaboli/{{vocabolo.id}}">
           <h2 align="right">{{vocabolo.termine}}</h2>
-          <p>{{vocabolo.traslitterazione}}</p>
+          <p>{{vocabolo.traslitterazione}} - {{vocabolo.significato}} </p>
           <i class="icon ion-chevron-right icon-accessory"></i>
   
           <ion-option-button class="button-assertive" ng-click="remove(vocabolo)">
